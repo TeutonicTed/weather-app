@@ -22,4 +22,4 @@ For this assignment, I created a browser-side weather tracking application with 
 
 ## Screenshot of the Deployed Version
 
-![Screenshot of the web page](./Assets/screenshot.png)
+![Screenshot of the web page](./assets/screenshot.png)
