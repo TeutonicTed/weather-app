@@ -38,8 +38,6 @@ async function getWeatherData(city){
      }
     
     
-    
-
 
     displayCurrentWeather(data3);
     displayFiveDayForecast(data2);
