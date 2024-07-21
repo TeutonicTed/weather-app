@@ -13,10 +13,10 @@ async function getWeatherData(city){
     console.log(city);
 
     const apikey = "31fdf621acdb5785b3727e801c1361d8"
-    const resp1 = await fetch (`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apikey}`)
+    const resp1 = await fetch (`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apikey}`)
     const data1 = await resp1.json()
     console.log(data1)
-    const resp2 = await fetch (`http://api.openweathermap.org/data/2.5/forecast?lat=${data1[0].lat}&lon=${data1[0].lon}&appid=${apikey}&units=imperial`)
+    const resp2 = await fetch (`https://api.openweathermap.org/data/2.5/forecast?lat=${data1[0].lat}&lon=${data1[0].lon}&appid=${apikey}&units=imperial`)
     const data2 = await resp2.json()
     console.log(data2)
     
