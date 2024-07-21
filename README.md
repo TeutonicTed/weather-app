@@ -10,8 +10,8 @@ For this assignment, I created a browser-side weather tracking application with 
     - Temperature in Farhenheit (formatting measurement into imperial within the URL parameters) 
     - Wind Speed
     - Humidity
-- Using For loops to create intervals to account for the 3-hour intervals in the API's arrays, four identical boxes display the next four day forecast (each taken at the 12pm array)
-- Reading from local storage, the site dynamically creates buttons of previously submitted cities that allow the user to click on each city and display the city's current and four day forecasts.
+- Using For loops to create intervals to account for the 3-hour intervals in the API's arrays, five identical boxes display the next five day forecast (each taken at the 12pm array)
+- Reading from local storage, the site dynamically creates buttons of previously submitted cities that allow the user to click on each city and display the city's current and five day forecasts.
     - Using jQuery to sort the buttons alphabetically
     - Using if statements to filter out/not create buttons for repeat city names
 
